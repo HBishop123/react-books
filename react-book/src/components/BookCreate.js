@@ -10,6 +10,8 @@ function BookCreate({ onCreate }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     onCreate(title);
+    setTitle('')
+    
   };
 
   return (

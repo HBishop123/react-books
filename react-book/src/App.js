@@ -8,6 +8,8 @@ function App() {
     console.log(title);
   };
 
+  
+
   return (
     <div>
       <BookCreate onCreate={createBook} />
